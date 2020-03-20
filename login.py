@@ -103,7 +103,7 @@ loginframe = LabelFrame(window)
 registerframe = LabelFrame(window)
 
 # main frame
-lbl = Label(mainframe, text='Welcome', font=('impact', 20), width=14)
+lbl = Label(mainframe, text='Welcome', font=('impact', 20), width=15)
 login_btn = Button(mainframe, text='Login', bg='gray', command=login_page, width=10)
 register_btn = Button(mainframe, text='register', bg='gray', command=register_page, width=10)
 error = Label(mainframe, text='', font=('impact', 10))
